@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap'); 
+/* font-family: "League Gothic", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "League Gothic", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=League+Gothic&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #000;
+  color: #fff;
+
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button, input, textarea, select {
+  font: inherit;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+h1, h2, h3, h4, h5{
+    font-family: "League Gothic", sans-serif;
+}
+
+p, li, a{
+    font-family: "Montserrat", sans-serif;
+}
